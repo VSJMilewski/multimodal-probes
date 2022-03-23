@@ -1,0 +1,12 @@
+pytorch-lightning
+matplotlib
+h5py
+pytorch_pretrained_bert
+wandb
+scipy
+spacy >= 3
+spacy-transformers
+pytz
+spacy_conll
+pandas
+rich
