@@ -133,12 +133,18 @@ by Hewitt and Manning (2019).
 ## Citation
 If you use this repository, please cite:
 ```text
-@article{milewski2022multimodal_probing,
-  title={Finding Structural Knowledge in Multimodal-BERT},
-  author={Victor Milewski and Miryam de Lhoneux and Marie-Francine Moens},
-  journal={ArXiv},
-  year={2022},
-  volume={abs/2203.09306}
+@inproceedings{milewski-etal-2022-finding,
+    title = "Finding Structural Knowledge in Multimodal-{BERT}",
+    author = "Milewski, Victor  and
+      de Lhoneux, Miryam  and
+      Moens, Marie-Francine",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.388",
+    pages = "5658--5671",
+    abstract = "In this work, we investigate the knowledge learned in the embeddings of multimodal-BERT models. More specifically, we probe their capabilities of storing the grammatical structure of linguistic data and the structure learned over objects in visual data. To reach that goal, we first make the inherent structure of language and visuals explicit by a dependency parse of the sentences that describe the image and by the dependencies between the object regions in the image, respectively. We call this explicit visual structure the scene tree, that is based on the dependency tree of the language description. Extensive probing experiments show that the multimodal-BERT models do not encode these scene trees.",
 }
 ```
-__Note:__ _will be updated to the ACL anthology version once available_
